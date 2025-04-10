@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background-image: url(./img/new-year-background-1850177_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h1{
+    text-align: center;
+    margin-top:42px;
+    color:white;
+}
+header h3{
+    text-align: center;
+    margin:8px 0px;
+    color:white
+}
+form{
+    display:flex;
+    justify-content: center;
+}
+form input,
+form button{
+    padding:10px;
+    margin-right:5px;
+}
+form button{
+    background-color:#e8a26f;
+    border: none;
+    font-weight: bold;
+    font-size:18px;
+}
+form button:hover{
+    cursor:pointer;
+}
+ul{
+    margin-top:64px;
+    width:50%;
+    margin:0 auto;
+}
+ul li{
+    padding: 10px;
+    margin:12px 0px;
+    background-color:#e8a26f;
+    list-style: none;
+    color:white;
+    font-size: bold;
+    font-size: 18px;
+    border-bottom: 1px solid #fff
+}
+.done{
+    text-decoration:line-through;
+}
